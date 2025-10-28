@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 2rem;
+}
+
+.app {
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.add-task {
+    display: flex;
+    justify-content: space-between;
+}
+
+#new-task {
+    flex: 1;
+    padding: 0.5rem;
+}
+
+#add-button {
+    padding: 0.5rem 1rem;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+#task-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+#text-list li.completed {
+    text-decoration: line-through;
+    color: #888;
+}

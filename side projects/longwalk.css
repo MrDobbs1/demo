@@ -1,0 +1,22 @@
+body {
+    background-color: maroon;
+}
+
+p {
+    font-size: 25px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+align-items: center;}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rating {
+    font-size: 35px;
+}
